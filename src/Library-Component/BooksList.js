@@ -29,6 +29,7 @@ export default function BooksList (){
 
   return (
     <div className="container w-100 ">
+      <h1>Book List</h1>
       <div className="row justify-content-around p-3">
         {books.map((data, idx) => (
           <Card
